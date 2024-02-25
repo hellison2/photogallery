@@ -14,11 +14,12 @@
         </header>
 
         <nav>
+            <h2>Main Navigation</h2>
             <ul>
-                <li a href="#about">About</li>
-                <li a href="#gallery">Gallery</li>
-                <li a href="#contact">Contact</li>
-                <li a href="#top">Top</li>
+                <li><a href="#about">About></a></li>
+                <li><a href="#gallery">Gallery></a></li>
+                <li><a href="#contact">Contact></a></li>
+                <li><a href="#top">Top></a></li>
             </ul>
         </nav>
 
@@ -26,8 +27,7 @@
             <section id="about">
                 <h2>About</h2>
                 <p>Hello!</p>
-                <br>
-                <p>I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world. </p>
+                <p>I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my specialty and it’s taken me all over the world. </p>
             </section>
 
             <section id="gallery">
@@ -35,84 +35,86 @@
                 <p>Here are some highlights of my work. The locations and year are in the caption.</p>
 
                 <div class="images">
-                    <section>
+                    <figure>
                         <img src="images/Chile.png" alt="A beach in Chile.">
-                        <p>Chile, 2001</p>
-                    </section>
+                        <figcaption id="chile">Chile, 2001</figcaption>
+                    </figure>
 
-                    <section>
+                    <figure>
                         <img src="images/Guatemala.png" alt="Guatemala countryside.">
-                        <p>Guatemala, 1997</p>
-                    </section>
+                        <figcaption id="guat">Guatemala, 1997</figcaption>
+                    </figure>
 
-                    <section>
+                    <figure>
                         <img src="images/Hawaii.png" alt="Hawaii coastline.">
-                        <p>Hawaii, 2010</p>
-                    </section>
+                        <figcaption id="hawaii">Hawaii, 2010</figcaption>
+                    </figure>
 
-                    <section>
+                    <figure>
                         <img src="images/Iran.png" alt="Desert plants in Iran.">
-                        <p>Iran, 1999</p>
-                    </section>
+                        <figcaption id="iran">Iran, 1999</figcaption>
+                    </figure>
 
-                    <section>
+                    <figure>
                         <img src="images/Ireland.png" alt="Irish countryside.">
-                        <p>Ireland, 2012</p>
-                    </section>
+                        <figcaption id="ireland">Ireland, 2012</figcaption>
+                    </figure>
 
-                    <section>
+                    <figure>
                         <img src="images/Italy.png" alt="Italian alps.">
-                        <p>Italy, 2015</p>
-                    </section>
+                        <figcaption id="italy">Italy, 2015</figcaption>
+                    </figure>
 
-                    <section>
+                    <figure>
                         <img src="images/Moab-Desert.png" alt="Moab desert overlook.">
-                        <p>Moab Desert, 2020</p>
-                    </section>
+                        <figcaption id="moab">Moab Desert, 2020</figcaption>
+                    </figure>
  
-                    <section>
+                    <figure>
                         <img src="images/Rocky-Mountains.png" alt="Rocky mountains.">
-                        <p>Rocky Mountains, 2009</p>
-                    </section>
+                        <figcaption id="rocky">Rocky Mountains, 2009</figcaption>
+                    </figure>
  
-                    <section>
+                    <figure>
                         <img src="images/Switzerland.png" alt="Swiss alps.">
-                        <p>Switzerland, 2014</p>
-                    </section>
+                        <figcaption id="swiss">Switzerland, 2014</figcaption>
+                    </figure>
 
-                    <section>
+                    <figure>
                         <img src="images/UK.png" alt="United Kingdom countryside.">
-                        <p>UK, 2005</p>
-                    </section>
+                        <figcaption id="uk">UK, 2005</figcaption>
+                    </figure>
 
-                    <section>
+                    <figure>
                         <img src="images/USA.png" alt="Scenic U.S. landscape.">
-                        <p>USA, 2021</p>
-                    </section>
+                        <figcaption id="usa">USA, 2021</figcaption>
+                    </figure>
 
-                    <section>
+                    <figure>
                         <img src="images/Wyoming.png" alt="A lake and mountains in Wyoming.">
-                        <p>Wyoming, 2021</p>
-                    </section>
-                </section>
+                        <figcaption id="wyoming">Wyoming, 2021</figcaption>
+                    </figure>
+                </div>
             </section>
 
             <section id="contact">
                 <h2>Contact</h2>
                 <p>Please fill out this form and I’ll connect with you soon.</p>
 
-                <form action="#" method="post">
+                <fieldset>
+                    <legend>Your contact information</legend>
+
                     <label for="name">Name</label>
-                    <textarea type="text" name="name" id="name">Your full name</textarea>
+                    <input type="text" name="name" id="name" value="Your full name">
 
                     <label for="email">Email</label>
-                    <textarea type="email" name="email" id="email">Enter your email address</textarea>
+                    <input type="email" name="email" id="email" value="Enter your email address">
 
                     <label for="message">Message</label>
-                    <textarea type="text" name="message" id="message">What can I help you with?</textarea>
+                    <input type="text" name="message" id="message" value="What can I help you with?">
 
                     <input type="submit" name="submit" id="submit" value="Submit">
-                </form>
+                </fieldset>
             </section>
         </main>
 
